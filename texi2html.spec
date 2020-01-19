@@ -1,6 +1,6 @@
 Name: texi2html
 Version: 1.82
-Release: 10%{?dist}
+Release: 9%{?dist}
 # GPLv2+ is for the code
 # OFSFDL (Old FSF Documentation License) for the documentation
 # CC-BY-SA or GPLv2 for the images
@@ -74,9 +74,6 @@ fi
 %dir %{_sysconfdir}/texinfo
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.82-10
-- Mass rebuild 2013-12-27
-
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.82-9
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
